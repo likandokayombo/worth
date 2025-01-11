@@ -29,3 +29,9 @@ window.onload = function() {
       document.getElementById('content').style.display = 'block';
   }, 2000); // Adjust this time to simulate longer or shorter loading
 };
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Update the year in the footer
+document.getElementById('currentYear').textContent = currentYear;
